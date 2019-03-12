@@ -9,20 +9,20 @@ module.exports = {
         filename: 'dist/build.js'
     },
     resolve: {
-        extensions: ['.ts', '.js']
+        extensions: ['vue', '.ts']
     },
     module: {
         rules: [
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader'
+            },
             {
                 test: /\.ts$/,
                 loader: 'ts-loader',
                 options: {
                     appendTsSuffixTo: [/\.vue$/]
                 }
-            },
-            {
-                test: /\.vue$/,
-                loader: 'vue-loader'
             }
         ]
     },
