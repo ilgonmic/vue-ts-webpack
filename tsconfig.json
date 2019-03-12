@@ -6,9 +6,5 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "sourceMap": true
-  },
-  "include": [
-    "src/*",
-    "src/**/*"
-  ]
+  }
 }

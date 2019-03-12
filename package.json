@@ -6,14 +6,13 @@
     "build": "webpack"
   },
   "dependencies": {
-    "vue": "2.6.8",
-    "vue-property-decorator": "8.0.0"
+    "vue": "2.6.8"
   },
   "devDependencies": {
-    "css-loader": "^2.1.1",
-    "ts-loader": "^5.3.3",
+    "ts-loader": "5.3.3",
     "typescript": "3.3.3333",
     "vue-loader": "^15.7.0",
+    "vue-property-decorator": "8.0.0",
     "vue-template-compiler": "2.6.8",
     "webpack": "4.29.6",
     "webpack-cli": "3.2.3"
